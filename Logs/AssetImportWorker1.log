@@ -1,0 +1,284 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.34f1 (25266724e7bd) revision 2434663'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/NeckFace/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50193
+Successfully changed project path to: C:/Users/NeckFace/My project
+C:/Users/NeckFace/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23616] Host "[IP] 192.168.60.131 [Port] 0 [Flags] 2 [Guid] 1115014725 [EditorId] 1115014725 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4SF30J4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23616] Host "[IP] 192.168.60.131 [Port] 0 [Flags] 2 [Guid] 1115014725 [EditorId] 1115014725 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4SF30J4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 46.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.34f1 (25266724e7bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/NeckFace/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001713 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.472 seconds
+Domain Reload Profiling:
+	ReloadAssembly (472ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (333ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (1016ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (653ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (570ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.8 KB). Loaded Objects now: 3528.
+Memory consumption went from 108.5 MB to 108.4 MB.
+Total: 2.478300 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.071500 ms  DeleteObjects: 0.081900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3748.228571 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Sport Car_15.prefab
+  artifactKey: Guid(607b79ed12cd6f047acb8bc18496b761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Sport Car_15.prefab using Guid(607b79ed12cd6f047acb8bc18496b761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf0927fecac3e8789406d1b9719fdca') in 0.214426 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Pick Up_3.prefab
+  artifactKey: Guid(1f25df648c8257d4ca61ff53887fca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Pick Up_3.prefab using Guid(1f25df648c8257d4ca61ff53887fca25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09428b0cea6dd45d671e3ebee2149fe8') in 0.023171 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Ambulance.prefab
+  artifactKey: Guid(823693565030bdd46b6179b999b8aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Ambulance.prefab using Guid(823693565030bdd46b6179b999b8aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe6c67abecba0badcadf803efeb33ed') in 0.026788 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Simple Car_10.prefab
+  artifactKey: Guid(630c92722b5c09b409341ceb1beeacda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Simple Car_10.prefab using Guid(630c92722b5c09b409341ceb1beeacda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4bab64fdc67f2ea82775145d831622') in 0.025867 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Boat_A10.prefab
+  artifactKey: Guid(b42a23ece8cbc25438eee52b3c0862bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Boat_A10.prefab using Guid(b42a23ece8cbc25438eee52b3c0862bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9b7ddc99c491397a402528f8e02a4e') in 0.027198 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Low Poly Vehicle
+  artifactKey: Guid(1aba05149155af742b57a8615427ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle using Guid(1aba05149155af742b57a8615427ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c98b0dd49a1c5b6bde3ec333a01cdc4') in 0.016802 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs
+  artifactKey: Guid(960219f93ddb86d4a9a6ad4d104349f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs using Guid(960219f93ddb86d4a9a6ad4d104349f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b557ba27d847764b161478bf9b60177b') in 0.021212 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Simple Car_6.prefab
+  artifactKey: Guid(5f202a3ee40bc3c46b641001b928c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Simple Car_6.prefab using Guid(5f202a3ee40bc3c46b641001b928c77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378cd3cd5c92f89fd825720e3ff476e1') in 0.028590 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Ballon_1.prefab
+  artifactKey: Guid(e5177b3312045a246afea2503afb6a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Ballon_1.prefab using Guid(e5177b3312045a246afea2503afb6a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831b3a8dd603d11e72c05e4685965689') in 0.020622 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Helicopter_A8.prefab
+  artifactKey: Guid(724b5cd799b5f454295db4e65dd84736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Helicopter_A8.prefab using Guid(724b5cd799b5f454295db4e65dd84736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42c9202cf646f7ae078e079a86c64db') in 0.023813 seconds 
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Air Plane Za_13.prefab
+  artifactKey: Guid(0ef7d57a528ffb440a8a338435dfbfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Air Plane Za_13.prefab using Guid(0ef7d57a528ffb440a8a338435dfbfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c833a8c80b510cecf348ae75c15a9ab') in 0.027260 seconds 
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Air Plane Zf_10.prefab
+  artifactKey: Guid(fce098004e1344841b3360e8f83b0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Air Plane Zf_10.prefab using Guid(fce098004e1344841b3360e8f83b0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c4d38e33c9a11dfbac62f2de311380') in 0.028240 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Tank_9.prefab
+  artifactKey: Guid(0dce52fea9f901b4f8bc6778aea459a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Tank_9.prefab using Guid(0dce52fea9f901b4f8bc6778aea459a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948c11c5da1267344e31fe9c2937696f') in 0.022586 seconds 
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Free Low Poly Vehicle/Pefabs/Air Plane Zb_2.prefab
+  artifactKey: Guid(fd60f2c0904bda245a891fe7a36487a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Free Low Poly Vehicle/Pefabs/Air Plane Zb_2.prefab using Guid(fd60f2c0904bda245a891fe7a36487a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ae0232de77c30a09938505aea4ca14') in 0.025668 seconds 
+Number of asset objects unloaded after import = 28
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
