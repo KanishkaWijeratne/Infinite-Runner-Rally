@@ -1,12 +1,13 @@
 using UnityEngine;
 
 public class CarController : MonoBehaviour
-{  
-     public float moveSpeed = 5f;
+{
+    public float moveSpeed = 5f;
     public float horizontalSpeed = 3f; // Speed of horizontal movement (left/right)
     public float rotationSpeed = 300f; // Rotation speed for drifting
     public float maxRotationAngle = 30f; // Max rotation angle for drifting
     public float rotationReturnSpeed = 5f; // Speed at which the rotation returns to zero
+    public Transform[] wheels; // Array of wheel transforms (assign the wheel objects in the inspector)
 
     private float currentRotation = 0f; // Tracks the current rotation around the Y-axis
 
@@ -14,7 +15,7 @@ public class CarController : MonoBehaviour
     {
         // Get input from the arrow keys
         float horizontal = Input.GetAxis("Horizontal"); // Left and Right arrows
-        float vertical = Input.GetAxis("Vertical"); // Up and Down arrows
+        float vertical = moveSpeed;
 
         // Move the object forward/backward
         Vector3 movement = new Vector3(horizontal * horizontalSpeed, 0, vertical * moveSpeed) * Time.deltaTime;
@@ -41,7 +42,20 @@ public class CarController : MonoBehaviour
                 currentRotation = Mathf.MoveTowards(currentRotation, 0, rotationReturnSpeed * Time.deltaTime);
                 transform.rotation = Quaternion.Euler(0, currentRotation, 0);
             }
-            //merger changes test
+        }
+
+        // Spin the wheels based on the car's forward movement (speed)
+        RotateWheels();
+    }
+
+    // Method to rotate the wheels based on the move speed
+    void RotateWheels()
+    {
+        foreach (Transform wheel in wheels)
+        {
+            // Spin the wheels based on the car's forward movement (speed)
+            float wheelRotation = moveSpeed * Time.deltaTime * 360f; // 360 degrees per second for wheel rotation
+            wheel.Rotate(Vector3.right, wheelRotation); // Rotate around the X-axis for spinning wheels
         }
     }
 }

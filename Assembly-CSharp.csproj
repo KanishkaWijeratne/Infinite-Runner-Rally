@@ -62,10 +62,12 @@
     <Analyzer Include="C:\Users\NeckFace\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.5\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ObjectTie.cs" />
-    <Compile Include="Assets\Scripts\MoveTie.cs" />
     <Compile Include="Assets\Scripts\DriftingAnchor.cs" />
+    <Compile Include="Assets\Scripts\MoveTie.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
+    <Compile Include="Assets\Scripts\TrackManager.cs" />
+    <Compile Include="Assets\Scripts\ObjectTie.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
